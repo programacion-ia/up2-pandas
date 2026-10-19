@@ -1,0 +1,15 @@
+[project]
+name = "up2-pandas"
+version = "0.1.0"
+description = "Programación de IA · CE IABD · Unidad 2: extracción y manipulación de datos"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5",
+    "pandas>=3.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+]

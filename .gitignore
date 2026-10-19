@@ -1,0 +1,7 @@
+# Entorno y cachés
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Tus pruebas: aquí no llegan los cambios del profesor y git no las sube
+mis_pruebas/

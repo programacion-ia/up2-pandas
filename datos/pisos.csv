@@ -1,0 +1,601 @@
+id,fecha,barrio,tipo,metros,habitaciones,banos,planta,ascensor,terraza,vistas_mar,anunciante,precio,alquilado_30_dias
+1001,2026-01-02,Levante,piso,115,3,2.0,6.0,True,False,False,particular,1830,False
+1002,2026-01-04,Foietes,estudio,35,1,1.0,0.0,False,True,False,agencia,570,False
+1003,2026-01-04,Poniente,piso,70,3,1.0,1.0,True,False,False,agencia,1040,False
+1004,2026-01-04,Casco Antiguo,piso,82,3,1.0,9.0,True,False,True,agencia,1480,False
+1005,2026-01-05,Centro,estudio,38,1,1.0,3.0,True,False,False,particular,790,False
+1006,2026-01-05,El Murtal,piso,117,4,3.0,1.0,False,False,False,particular,1120,True
+1007,2026-01-06,Els Tolls,ático,126,5,2.0,8.0,True,True,False,agencia,1580,False
+1008,2026-01-06,Levante,piso,96,3,2.0,16.0,True,False,True,agencia,1640,False
+1009,2026-01-06,Foietes,piso,118,4,2.0,,True,False,False,particular,1250,False
+1010,2026-01-07,Centro,piso,65,2,1.0,6.0,True,False,False,agencia,960,False
+1011,2026-01-07,Salt de l'Aigua,ático,61,2,1.0,9.0,True,True,False,agencia,760,False
+1012,2026-01-07,Salt de l'Aigua,piso,97,4,2.0,1.0,False,False,False,agencia,1980,False
+1013,2026-01-07,Foietes,estudio,44,1,1.0,8.0,True,False,False,agencia,580,False
+1014,2026-01-07,El Murtal,piso,50,1,1.0,0.0,True,False,False,agencia,570,False
+1015,2026-01-07,Poniente,ático,121,5,2.0,24.0,True,True,False,particular,2610,False
+1016,2026-01-08,El Murtal,piso,102,3,3.0,1.0,False,False,False,particular,1060,False
+1017,2026-01-09,Poniente,piso,102,4,2.0,20.0,True,False,True,agencia,1980,False
+1018,2026-01-09,Centro,estudio,33,1,1.0,23.0,True,False,True,agencia,550,True
+1019,2026-01-10,Centro,piso,107,3,2.0,12.0,True,True,False,agencia,1420,False
+1020,2026-01-10,Levante,piso,97,4,2.0,19.0,True,True,True,agencia,2270,False
+1021,2026-01-10,Poniente,estudio,41,1,1.0,20.0,True,True,True,particular,800,False
+1022,2026-01-12,Casco Antiguo,estudio,44,1,1.0,4.0,True,False,False,agencia,640,False
+1023,2026-01-14,Foietes,estudio,36,1,1.0,,False,True,False,agencia,530,False
+1024,2026-01-14,Rincón de Loix,piso,119,4,2.0,24.0,True,True,True,particular,1840,True
+1025,2026-01-15,Poniente,estudio,33,1,1.0,15.0,True,True,True,particular,980,False
+1026,2026-01-15,Casco Antiguo,piso,88,3,1.0,20.0,True,True,True,particular,1830,False
+1027,2026-01-15,Levante,piso,114,4,2.0,0.0,True,True,False,particular,1840,False
+1028,2026-01-16,La Cala,estudio,29,1,1.0,17.0,True,True,True,agencia,670,False
+1029,2026-01-19,Poniente,dúplex,104,3,2.0,17.0,True,False,False,particular,1590,True
+1030,2026-01-19,Centro,piso,54,1,1.0,16.0,False,False,True,particular,650,False
+1031,2026-01-20,Levante,piso,99,4,2.0,25.0,True,False,True,particular,1980,False
+1032,2026-01-20,Els Tolls,piso,68,2,1.0,7.0,True,False,False,agencia,590,True
+1033,2026-01-21,El Murtal,ático,71,2,1.0,7.0,False,True,False,particular,970,False
+1034,2026-01-22,La Cala,piso,56,2,1.0,5.0,True,False,False,particular,1040,False
+1035,2026-01-22,Centro,dúplex,140,5,2.0,1.0,False,False,False,particular,2070,True
+1036,2026-01-23,Salt de l'Aigua,ático,80,2,1.0,9.0,True,True,False,agencia,1170,False
+1037,2026-01-23,La Cala,piso,115,3,2.0,0.0,False,False,True,particular,1890,False
+1038,2026-01-24,Casco Antiguo,piso,111,3,2.0,11.0,True,False,False,particular,1830,False
+1039,2026-01-24,Els Tolls,piso,73,2,1.0,1.0,True,False,False,agencia,870,False
+1040,2026-01-24,Centro,piso,71,2,1.0,0.0,False,False,False,agencia,910,False
+1041,2026-01-24,Foietes,estudio,43,1,1.0,8.0,False,True,False,agencia,670,False
+1042,2026-01-25,Centro,piso,73,2,1.0,6.0,True,False,True,particular,1210,False
+1043,2026-01-25,Centro,piso,90,3,1.0,20.0,True,False,True,particular,1200,False
+1044,2026-01-25,Foietes,piso,108,3,2.0,3.0,True,False,False,agencia,1140,True
+1045,2026-01-25,Levante,piso,110,4,2.0,5.0,True,False,False,particular,1700,True
+1046,2026-01-26,Poniente,piso,103,4,2.0,2.0,False,False,False,particular,1410,True
+1047,2026-01-26,La Cala,ático,102,4,2.0,24.0,True,True,True,agencia,1930,False
+1048,2026-01-28,Levante,piso,72,2,1.0,1.0,False,False,False,particular,1350,False
+1049,2026-01-29,El Murtal,estudio,32,1,1.0,8.0,False,False,False,agencia,380,False
+1050,2026-01-30,Poniente,piso,85,4,1.0,19.0,True,True,True,agencia,1770,False
+1051,2026-01-30,La Cala,estudio,44,1,1.0,9.0,True,False,False,agencia,1050,False
+1052,2026-01-31,Casco Antiguo,ático,99,3,2.0,26.0,True,True,True,agencia,1980,False
+1053,2026-01-31,Casco Antiguo,piso,77,2,1.0,2.0,True,False,False,agencia,1070,False
+1054,2026-01-31,Poniente,piso,100,3,2.0,8.0,True,False,False,particular,1710,True
+1055,2026-01-31,Poniente,ático,70,2,1.0,26.0,True,True,True,agencia,1240,False
+1056,2026-02-01,Foietes,piso,59,2,1.0,1.0,False,True,False,particular,610,True
+1057,2026-02-01,La Cala,ático,85,3,1.0,26.0,False,True,False,particular,1510,False
+1058,2026-02-02,Casco Antiguo,ático,112,4,2.0,24.0,True,True,True,particular,1710,False
+1059,2026-02-02,Rincón de Loix,dúplex,148,5,2.0,6.0,True,False,False,particular,2910,False
+1060,2026-02-02,El Murtal,ático,66,2,1.0,8.0,True,True,False,particular,950,False
+1061,2026-02-02,Poniente,piso,59,2,1.0,4.0,True,True,True,particular,1360,False
+1062,2026-02-03,Centro,piso,91,4,1.0,2.0,False,False,False,agencia,1160,True
+1063,2026-02-03,Poniente,piso,101,4,2.0,0.0,True,True,False,agencia,1720,False
+1064,2026-02-06,Rincón de Loix,piso,116,4,2.0,24.0,True,False,True,particular,2380,False
+1065,2026-02-07,Els Tolls,dúplex,116,3,2.0,2.0,True,False,False,particular,1640,False
+1066,2026-02-07,Salt de l'Aigua,piso,62,1,1.0,2.0,False,True,False,agencia,700,False
+1067,2026-02-07,Rincón de Loix,piso,67,1,1.0,0.0,False,False,False,agencia,1080,False
+1068,2026-02-07,Centro,ático,114,4,2.0,25.0,True,True,True,agencia,2790,False
+1069,2026-02-07,El Murtal,dúplex,134,4,2.0,0.0,True,False,False,agencia,1760,False
+1070,2026-02-08,Centro,piso,77,3,1.0,0.0,False,False,False,agencia,790,True
+1071,2026-02-08,La Cala,dúplex,126,5,2.0,10.0,True,True,False,agencia,3620,False
+1072,2026-02-08,Casco Antiguo,estudio,31,1,1.0,21.0,True,True,True,agencia,700,False
+1073,2026-02-09,El Murtal,estudio,37,1,1.0,0.0,True,False,False,agencia,560,False
+1074,2026-02-09,Salt de l'Aigua,piso,85,2,1.0,3.0,True,False,False,agencia,930,False
+1075,2026-02-09,Els Tolls,piso,61,2,1.0,2.0,False,True,False,agencia,620,False
+1076,2026-02-09,La Cala,piso,63,2,1.0,12.0,True,False,False,agencia,990,False
+1077,2026-02-10,Levante,piso,106,3,2.0,,True,False,True,agencia,1810,True
+1078,2026-02-10,Salt de l'Aigua,piso,81,2,1.0,0.0,True,False,False,agencia,900,False
+1079,2026-02-10,Rincón de Loix,piso,59,2,1.0,11.0,True,False,True,agencia,1080,False
+1080,2026-02-12,Centro,piso,91,3,1.0,21.0,True,True,True,particular,1530,False
+1081,2026-02-12,Centro,piso,84,3,1.0,11.0,True,True,True,particular,1700,False
+1082,2026-02-12,Foietes,piso,103,3,2.0,1.0,False,True,False,agencia,1280,True
+1083,2026-02-13,Poniente,estudio,30,1,1.0,0.0,True,False,False,agencia,680,False
+1084,2026-02-13,Rincón de Loix,piso,106,3,2.0,9.0,True,True,False,particular,1740,True
+1085,2026-02-13,Rincón de Loix,piso,113,4,2.0,9.0,True,False,False,particular,1700,False
+1086,2026-02-13,La Cala,estudio,43,1,1.0,5.0,True,False,False,agencia,840,False
+1087,2026-02-13,Poniente,estudio,30,1,1.0,4.0,True,False,False,particular,640,False
+1088,2026-02-16,La Cala,piso,84,3,1.0,0.0,False,True,False,agencia,1300,False
+1089,2026-02-16,La Cala,piso,74,3,1.0,4.0,True,False,False,agencia,1170,False
+1090,2026-02-17,Els Tolls,ático,124,5,3.0,8.0,True,True,False,agencia,1700,False
+1091,2026-02-17,Salt de l'Aigua,piso,112,5,2.0,8.0,True,False,False,agencia,1310,False
+1092,2026-02-17,Levante,piso,112,3,2.0,19.0,True,False,True,agencia,1890,False
+1093,2026-02-17,Salt de l'Aigua,estudio,42,1,1.0,1.0,False,False,False,agencia,440,False
+1094,2026-02-17,El Murtal,piso,84,3,1.0,6.0,True,True,False,agencia,670,True
+1095,2026-02-18,Foietes,estudio,28,1,1.0,2.0,False,False,False,agencia,390,False
+1096,2026-02-21,Foietes,estudio,29,1,1.0,1.0,False,False,False,particular,340,True
+1097,2026-02-21,Poniente,estudio,31,1,1.0,7.0,True,False,False,agencia,500,False
+1098,2026-02-21,Salt de l'Aigua,piso,75,3,1.0,1.0,False,False,False,agencia,1530,False
+1099,2026-02-21,Levante,estudio,36,1,,3.0,True,False,False,agencia,670,False
+1100,2026-02-21,La Cala,piso,102,4,2.0,18.0,True,False,False,particular,1780,False
+1101,2026-02-22,El Murtal,piso,66,2,1.0,3.0,True,False,False,agencia,870,False
+1102,2026-02-23,Levante,piso,89,2,1.0,24.0,True,False,True,particular,1870,False
+1103,2026-02-23,La Cala,dúplex,121,4,,13.0,True,False,False,agencia,1850,False
+1104,2026-02-24,Casco Antiguo,piso,63,2,1.0,24.0,True,False,True,agencia,890,False
+1105,2026-02-24,El Murtal,piso,67,2,1.0,3.0,True,False,False,agencia,660,False
+1106,2026-02-24,Rincón de Loix,piso,110,3,2.0,10.0,True,True,True,agencia,1830,True
+1107,2026-02-25,La Cala,piso,83,4,1.0,25.0,True,False,True,particular,1380,False
+1108,2026-02-25,Els Tolls,piso,95,3,1.0,7.0,True,True,False,particular,1010,False
+1109,2026-02-25,La Cala,piso,74,1,1.0,3.0,True,False,False,particular,1430,False
+1110,2026-02-25,Centro,piso,58,2,1.0,5.0,True,False,False,particular,920,False
+1111,2026-02-26,Foietes,piso,69,2,1.0,5.0,True,False,False,agencia,1030,False
+1112,2026-02-27,Centro,dúplex,146,5,2.0,9.0,True,False,False,agencia,2260,False
+1113,2026-02-27,Foietes,piso,111,4,2.0,0.0,True,True,False,agencia,1210,True
+1114,2026-02-27,Rincón de Loix,ático,96,3,2.0,26.0,True,True,True,particular,1920,False
+1115,2026-02-28,Centro,piso,95,3,1.0,8.0,True,False,False,agencia,1350,True
+1116,2026-02-28,Rincón de Loix,piso,75,3,1.0,2.0,False,True,False,particular,1240,False
+1117,2026-02-28,Rincón de Loix,estudio,43,1,1.0,14.0,True,False,False,agencia,990,False
+1118,2026-02-28,La Cala,piso,86,3,1.0,18.0,True,False,True,agencia,1400,False
+1119,2026-03-01,Levante,piso,95,3,1.0,4.0,True,False,False,agencia,1530,False
+1120,2026-03-01,Poniente,piso,87,3,1.0,15.0,True,False,True,agencia,1670,False
+1121,2026-03-01,Foietes,ático,98,3,2.0,9.0,True,True,False,agencia,1640,False
+1122,2026-03-01,Els Tolls,piso,118,3,2.0,6.0,True,False,False,agencia,1180,False
+1123,2026-03-01,Centro,dúplex,124,5,2.0,7.0,True,False,False,particular,1990,False
+1124,2026-03-02,Centro,dúplex,136,5,3.0,3.0,True,False,False,particular,1770,False
+1125,2026-03-02,Centro,estudio,35,1,1.0,0.0,True,False,False,particular,660,False
+1126,2026-03-03,Rincón de Loix,estudio,32,1,1.0,4.0,True,True,True,particular,810,False
+1127,2026-03-03,Foietes,dúplex,96,3,3.0,0.0,False,False,False,particular,1200,False
+1128,2026-03-03,El Murtal,piso,79,4,1.0,1.0,True,False,False,particular,1040,False
+1129,2026-03-04,Poniente,piso,90,2,1.0,10.0,True,True,False,agencia,1540,False
+1130,2026-03-04,La Cala,piso,57,2,1.0,14.0,True,False,True,particular,1090,False
+1131,2026-03-04,Salt de l'Aigua,piso,116,4,2.0,1.0,True,False,False,particular,1040,False
+1132,2026-03-04,Foietes,piso,74,2,1.0,3.0,True,True,False,particular,770,True
+1133,2026-03-04,El Murtal,piso,116,4,2.0,2.0,True,True,False,agencia,1340,False
+1134,2026-03-05,Els Tolls,piso,106,3,2.0,,True,True,False,agencia,1140,False
+1135,2026-03-05,Levante,piso,57,1,1.0,11.0,True,False,True,particular,1380,False
+1136,2026-03-06,Foietes,piso,78,2,1.0,2.0,False,False,False,particular,940,False
+1137,2026-03-07,Foietes,piso,59,2,1.0,4.0,True,False,False,particular,830,False
+1138,2026-03-07,Els Tolls,piso,106,4,2.0,1.0,False,True,False,agencia,1170,False
+1139,2026-03-07,Centro,dúplex,110,4,2.0,22.0,True,False,True,agencia,2100,False
+1140,2026-03-09,Foietes,piso,72,2,1.0,7.0,True,False,False,agencia,810,True
+1141,2026-03-09,La Cala,estudio,41,1,1.0,2.0,False,False,False,agencia,810,False
+1142,2026-03-09,Casco Antiguo,piso,93,3,1.0,14.0,True,False,False,particular,1290,True
+1143,2026-03-09,Rincón de Loix,estudio,28,1,1.0,1.0,True,False,False,particular,520,False
+1144,2026-03-10,Centro,piso,55,1,1.0,12.0,True,False,False,agencia,580,True
+1145,2026-03-10,Salt de l'Aigua,piso,51,1,1.0,8.0,True,True,False,particular,570,False
+1146,2026-03-10,Levante,piso,59,3,1.0,13.0,True,False,True,agencia,1280,False
+1147,2026-03-11,Rincón de Loix,estudio,35,1,1.0,9.0,True,False,True,agencia,870,False
+1148,2026-03-11,Casco Antiguo,piso,78,2,1.0,,True,True,True,particular,1420,False
+1149,2026-03-12,Rincón de Loix,piso,74,3,1.0,25.0,True,False,True,particular,1270,False
+1150,2026-03-12,Centro,ático,124,4,2.0,25.0,True,True,False,particular,1580,False
+1151,2026-03-13,Salt de l'Aigua,piso,89,3,1.0,1.0,False,False,False,agencia,730,False
+1152,2026-03-13,Centro,piso,99,2,2.0,8.0,True,False,False,agencia,1390,False
+1153,2026-03-14,La Cala,ático,72,2,1.0,24.0,True,True,True,particular,1660,False
+1154,2026-03-15,Levante,piso,65,2,1.0,0.0,False,False,False,particular,1220,False
+1155,2026-03-15,Foietes,piso,67,1,1.0,1.0,False,False,False,agencia,850,False
+1156,2026-03-15,Rincón de Loix,piso,70,2,1.0,10.0,False,False,True,agencia,1110,True
+1157,2026-03-16,El Murtal,estudio,40,1,1.0,0.0,False,False,False,agencia,510,False
+1158,2026-03-16,Casco Antiguo,estudio,28,1,1.0,9.0,True,False,False,agencia,440,False
+1159,2026-03-17,Levante,ático,65,2,1.0,24.0,True,True,True,agencia,1190,False
+1160,2026-03-18,El Murtal,estudio,38,1,1.0,0.0,True,False,False,agencia,470,False
+1161,2026-03-18,Poniente,ático,69,2,1.0,26.0,True,True,True,agencia,1400,False
+1162,2026-03-18,Poniente,ático,126,5,3.0,25.0,True,True,True,agencia,2520,False
+1163,2026-03-18,Levante,piso,51,2,1.0,6.0,True,False,False,agencia,960,False
+1164,2026-03-19,El Murtal,piso,94,4,1.0,1.0,False,False,False,agencia,1200,False
+1165,2026-03-19,Casco Antiguo,dúplex,114,4,2.0,23.0,True,True,True,agencia,1900,False
+1166,2026-03-19,Rincón de Loix,piso,102,3,2.0,12.0,True,False,False,agencia,2020,False
+1167,2026-03-20,Salt de l'Aigua,piso,113,3,2.0,0.0,False,True,False,agencia,900,True
+1168,2026-03-21,Rincón de Loix,ático,86,3,1.0,26.0,True,True,True,agencia,1980,False
+1169,2026-03-23,Rincón de Loix,piso,93,3,1.0,11.0,True,False,True,agencia,1820,False
+1170,2026-03-23,Poniente,piso,104,4,3.0,,True,False,False,particular,1430,True
+1171,2026-03-23,Levante,ático,92,3,1.0,23.0,True,True,True,agencia,2430,False
+1172,2026-03-24,Centro,estudio,36,1,1.0,0.0,True,True,False,particular,640,False
+1173,2026-03-24,La Cala,piso,76,3,1.0,3.0,True,False,True,agencia,1380,False
+1174,2026-03-24,Salt de l'Aigua,piso,99,3,2.0,7.0,True,False,False,agencia,1160,False
+1175,2026-03-24,Salt de l'Aigua,piso,117,4,2.0,6.0,True,False,False,particular,1290,False
+1176,2026-03-25,Rincón de Loix,piso,68,2,1.0,21.0,True,False,True,agencia,1160,False
+1177,2026-03-26,Els Tolls,estudio,32,1,1.0,4.0,True,False,False,agencia,420,False
+1178,2026-03-26,Levante,piso,99,4,2.0,18.0,True,True,True,agencia,2500,False
+1179,2026-03-26,El Murtal,estudio,34,1,1.0,8.0,True,True,False,particular,400,True
+1180,2026-03-28,Centro,dúplex,102,3,2.0,17.0,True,True,True,agencia,2060,False
+1181,2026-03-28,Foietes,piso,54,2,,1.0,True,False,False,particular,710,False
+1182,2026-03-28,Foietes,piso,73,3,1.0,0.0,False,False,False,agencia,1030,False
+1183,2026-03-28,Els Tolls,estudio,36,1,1.0,6.0,True,False,False,particular,570,False
+1184,2026-03-29,Salt de l'Aigua,piso,69,4,1.0,8.0,False,True,False,particular,560,True
+1185,2026-03-31,Centro,piso,100,3,2.0,4.0,True,False,False,particular,1550,False
+1186,2026-03-31,La Cala,estudio,35,1,1.0,12.0,True,False,True,particular,810,False
+1187,2026-03-31,El Murtal,estudio,33,1,1.0,0.0,False,False,False,agencia,480,False
+1188,2026-03-31,Rincón de Loix,dúplex,101,4,2.0,12.0,True,False,False,agencia,2140,False
+1189,2026-03-31,Foietes,piso,78,2,1.0,0.0,False,False,False,agencia,900,True
+1190,2026-03-31,Centro,piso,92,4,1.0,0.0,False,True,False,agencia,1270,True
+1191,2026-04-01,Levante,piso,91,3,1.0,19.0,True,False,True,agencia,1720,False
+1192,2026-04-01,Poniente,piso,95,4,1.0,11.0,True,False,False,agencia,1800,False
+1193,2026-04-02,Poniente,piso,76,3,1.0,15.0,True,False,True,particular,1240,True
+1194,2026-04-02,La Cala,piso,65,3,1.0,5.0,False,True,False,agencia,1080,False
+1195,2026-04-02,Foietes,dúplex,159,5,2.0,7.0,True,False,False,agencia,2040,False
+1196,2026-04-02,Poniente,estudio,41,1,1.0,3.0,True,True,False,particular,700,True
+1197,2026-04-02,Els Tolls,piso,112,3,2.0,0.0,True,False,False,agencia,1270,False
+1198,2026-04-02,Levante,estudio,39,1,1.0,1.0,False,False,False,agencia,1440,False
+1199,2026-04-02,Centro,piso,106,3,2.0,1.0,True,False,False,agencia,1970,False
+1200,2026-04-03,Centro,piso,117,4,2.0,14.0,True,False,True,particular,1700,False
+1201,2026-04-04,El Murtal,estudio,33,1,1.0,8.0,True,True,False,agencia,550,False
+1202,2026-04-05,Foietes,piso,110,3,2.0,3.0,False,False,False,agencia,1170,False
+1203,2026-04-05,Levante,estudio,37,1,1.0,3.0,True,False,False,particular,680,False
+1204,2026-04-05,El Murtal,piso,116,5,2.0,0.0,True,False,False,particular,1370,True
+1205,2026-04-06,El Murtal,piso,116,5,2.0,6.0,False,False,False,particular,1030,False
+1206,2026-04-06,El Murtal,piso,114,3,2.0,0.0,True,False,False,agencia,1240,False
+1207,2026-04-06,Rincón de Loix,estudio,43,1,1.0,14.0,True,False,True,agencia,1170,False
+1208,2026-04-06,Levante,estudio,43,1,1.0,3.0,True,False,False,particular,870,False
+1209,2026-04-08,Els Tolls,ático,106,4,2.0,8.0,True,True,False,particular,1810,False
+1210,2026-04-11,Els Tolls,dúplex,158,5,2.0,4.0,True,False,False,agencia,2020,False
+1211,2026-04-11,Levante,piso,114,3,3.0,6.0,False,False,False,agencia,1500,True
+1212,2026-04-12,Poniente,estudio,44,1,1.0,3.0,True,False,False,agencia,1210,False
+1213,2026-04-12,Centro,dúplex,123,5,3.0,11.0,True,False,True,agencia,2640,False
+1214,2026-04-12,Casco Antiguo,piso,74,3,1.0,14.0,True,False,True,agencia,970,True
+1215,2026-04-13,Rincón de Loix,piso,61,2,1.0,0.0,False,False,False,particular,880,True
+1216,2026-04-14,Centro,piso,59,3,1.0,3.0,True,False,False,agencia,1070,False
+1217,2026-04-15,Centro,estudio,39,1,1.0,16.0,True,False,False,agencia,690,False
+1218,2026-04-15,Salt de l'Aigua,estudio,43,1,1.0,1.0,True,True,False,agencia,570,False
+1219,2026-04-15,La Cala,piso,95,3,1.0,15.0,False,False,True,agencia,1410,False
+1220,2026-04-15,Levante,dúplex,108,4,2.0,6.0,True,True,False,agencia,3930,False
+1221,2026-04-15,Casco Antiguo,piso,63,2,1.0,14.0,True,False,False,agencia,1000,False
+1222,2026-04-15,Poniente,estudio,42,1,1.0,22.0,False,False,True,particular,1200,False
+1223,2026-04-16,Foietes,piso,52,2,1.0,0.0,True,True,False,particular,580,True
+1224,2026-04-16,Poniente,estudio,44,1,1.0,22.0,True,True,True,agencia,1100,False
+1225,2026-04-17,Casco Antiguo,piso,62,2,1.0,21.0,True,False,True,particular,1320,False
+1226,2026-04-17,Centro,piso,93,3,1.0,8.0,True,True,False,particular,1510,False
+1227,2026-04-20,La Cala,piso,108,4,3.0,0.0,False,False,False,agencia,1330,False
+1228,2026-04-21,Salt de l'Aigua,piso,70,3,1.0,6.0,True,False,False,agencia,790,False
+1229,2026-04-22,Poniente,ático,64,2,1.0,,True,True,True,particular,1520,False
+1230,2026-04-22,Els Tolls,piso,96,3,3.0,1.0,True,True,False,agencia,860,False
+1231,2026-04-23,Rincón de Loix,dúplex,152,5,2.0,0.0,False,True,False,agencia,3030,False
+1232,2026-04-24,Levante,piso,109,4,3.0,5.0,True,True,False,agencia,1630,False
+1233,2026-04-25,Els Tolls,piso,79,2,1.0,0.0,True,True,False,agencia,1030,False
+1234,2026-04-25,La Cala,piso,61,3,1.0,,True,False,False,agencia,970,False
+1235,2026-04-25,Poniente,piso,63,3,1.0,0.0,False,False,False,particular,1070,True
+1236,2026-04-26,Casco Antiguo,piso,111,4,2.0,13.0,True,False,True,agencia,1610,True
+1237,2026-04-27,Centro,ático,97,4,3.0,26.0,True,True,True,particular,1730,False
+1238,2026-04-27,Foietes,piso,100,3,2.0,0.0,False,True,False,agencia,1180,True
+1239,2026-04-27,Casco Antiguo,piso,106,4,2.0,12.0,True,False,True,particular,1660,False
+1240,2026-04-27,Poniente,piso,114,3,2.0,1.0,False,True,False,agencia,1610,True
+1241,2026-04-27,El Murtal,piso,69,2,1.0,0.0,True,False,False,agencia,720,False
+1242,2026-04-28,Salt de l'Aigua,piso,74,3,1.0,1.0,False,False,False,agencia,620,True
+1243,2026-04-28,Salt de l'Aigua,piso,92,3,1.0,0.0,True,False,False,agencia,940,False
+1244,2026-04-28,Poniente,piso,113,3,,7.0,True,True,False,agencia,1750,True
+1245,2026-04-28,Levante,piso,108,3,2.0,10.0,True,False,True,agencia,1370,False
+1246,2026-04-29,Rincón de Loix,ático,72,2,1.0,24.0,True,True,True,agencia,1980,False
+1247,2026-04-29,Poniente,piso,111,4,2.0,9.0,True,True,False,particular,1920,True
+1248,2026-04-29,Rincón de Loix,piso,100,3,2.0,19.0,True,False,False,agencia,1730,False
+1249,2026-04-30,Rincón de Loix,estudio,42,1,1.0,25.0,True,False,True,agencia,730,False
+1250,2026-04-30,Levante,piso,115,4,3.0,0.0,False,False,False,agencia,1580,True
+1251,2026-04-30,Salt de l'Aigua,piso,53,2,1.0,4.0,True,False,False,agencia,530,False
+1252,2026-05-02,Levante,dúplex,126,3,2.0,0.0,True,False,False,particular,3020,False
+1253,2026-05-02,Rincón de Loix,piso,52,1,1.0,9.0,True,True,True,agencia,1040,False
+1254,2026-05-02,Salt de l'Aigua,piso,60,3,1.0,2.0,True,False,False,agencia,570,True
+1255,2026-05-02,La Cala,piso,73,2,1.0,0.0,True,False,False,agencia,1150,True
+1256,2026-05-03,El Murtal,piso,117,4,2.0,8.0,True,True,False,agencia,1120,True
+1257,2026-05-04,Centro,ático,105,5,3.0,23.0,True,True,True,agencia,3120,False
+1258,2026-05-04,Salt de l'Aigua,estudio,37,1,,3.0,True,False,False,agencia,520,False
+1259,2026-05-05,Salt de l'Aigua,piso,55,3,1.0,5.0,True,False,False,particular,560,False
+1260,2026-05-05,La Cala,piso,69,2,1.0,,True,True,False,particular,1140,True
+1261,2026-05-05,Salt de l'Aigua,piso,50,1,1.0,7.0,False,False,False,agencia,560,False
+1262,2026-05-05,Poniente,piso,114,4,2.0,0.0,True,False,True,agencia,2200,False
+1263,2026-05-06,Poniente,piso,78,2,1.0,0.0,True,False,False,agencia,1040,False
+1264,2026-05-06,El Murtal,piso,107,4,2.0,0.0,True,False,False,agencia,1480,False
+1265,2026-05-06,Foietes,estudio,28,1,1.0,4.0,False,False,False,agencia,420,False
+1266,2026-05-07,Levante,piso,115,3,2.0,12.0,True,False,False,agencia,2250,False
+1267,2026-05-07,Poniente,estudio,37,1,1.0,1.0,False,False,False,agencia,660,False
+1268,2026-05-07,Rincón de Loix,piso,95,3,1.0,0.0,True,False,False,agencia,1610,False
+1269,2026-05-07,Els Tolls,piso,100,4,2.0,3.0,True,False,False,particular,1310,False
+1270,2026-05-08,Poniente,piso,65,3,1.0,22.0,True,False,True,agencia,1120,False
+1271,2026-05-08,Rincón de Loix,estudio,36,1,1.0,1.0,False,False,False,agencia,760,False
+1272,2026-05-08,Salt de l'Aigua,piso,91,2,1.0,2.0,False,True,False,agencia,1100,False
+1273,2026-05-09,Salt de l'Aigua,piso,105,4,2.0,6.0,True,False,False,agencia,1370,False
+1274,2026-05-09,El Murtal,piso,85,2,1.0,6.0,True,False,False,agencia,810,False
+1275,2026-05-09,Casco Antiguo,piso,90,3,1.0,12.0,True,False,False,agencia,1150,True
+1276,2026-05-10,La Cala,piso,85,2,1.0,16.0,True,False,True,agencia,1340,False
+1277,2026-05-11,Rincón de Loix,piso,72,1,1.0,6.0,True,False,False,agencia,1140,True
+1278,2026-05-11,Rincón de Loix,estudio,28,1,1.0,16.0,True,True,False,agencia,570,False
+1279,2026-05-11,Centro,piso,106,4,2.0,0.0,True,False,False,agencia,1550,False
+1280,2026-05-12,Casco Antiguo,piso,68,2,1.0,0.0,False,False,False,particular,1020,False
+1281,2026-05-12,El Murtal,piso,77,1,1.0,3.0,True,False,False,agencia,770,False
+1282,2026-05-13,Levante,piso,68,2,1.0,18.0,True,False,True,agencia,1420,False
+1283,2026-05-13,Rincón de Loix,ático,108,5,2.0,26.0,True,True,True,agencia,2020,False
+1284,2026-05-13,Foietes,estudio,29,1,1.0,2.0,False,True,False,agencia,410,False
+1285,2026-05-13,Els Tolls,piso,82,3,1.0,3.0,True,False,False,agencia,710,False
+1286,2026-05-13,Els Tolls,piso,76,3,1.0,8.0,True,False,False,particular,1010,False
+1287,2026-05-13,El Murtal,piso,92,2,1.0,7.0,True,False,False,agencia,720,True
+1288,2026-05-14,Salt de l'Aigua,piso,81,3,1.0,2.0,False,False,False,particular,710,False
+1289,2026-05-14,Poniente,piso,64,2,1.0,4.0,True,False,False,agencia,860,True
+1290,2026-05-14,El Murtal,piso,98,3,2.0,1.0,True,True,False,agencia,1230,False
+1291,2026-05-14,Casco Antiguo,piso,105,4,2.0,4.0,True,False,False,agencia,1710,False
+1292,2026-05-15,Centro,piso,86,3,1.0,0.0,True,True,False,agencia,1250,True
+1293,2026-05-15,Els Tolls,piso,99,4,2.0,0.0,True,False,False,particular,900,True
+1294,2026-05-15,Casco Antiguo,ático,91,4,1.0,23.0,True,True,True,agencia,1510,True
+1295,2026-05-16,El Murtal,estudio,37,1,1.0,2.0,False,False,False,agencia,440,False
+1296,2026-05-16,Poniente,estudio,30,1,1.0,3.0,True,True,False,particular,650,False
+1297,2026-05-17,Rincón de Loix,dúplex,129,4,2.0,8.0,True,False,True,agencia,2910,False
+1298,2026-05-17,Rincón de Loix,piso,66,3,1.0,4.0,True,False,True,particular,1280,False
+1299,2026-05-17,Poniente,piso,110,3,2.0,24.0,True,True,False,agencia,2210,False
+1300,2026-05-18,Foietes,estudio,33,1,1.0,0.0,True,False,False,particular,480,False
+1301,2026-05-18,El Murtal,piso,62,2,1.0,1.0,True,False,False,agencia,680,False
+1302,2026-05-18,Centro,dúplex,96,3,,19.0,True,True,True,agencia,1810,False
+1303,2026-05-19,Rincón de Loix,piso,50,1,1.0,6.0,True,True,True,particular,980,False
+1304,2026-05-20,Poniente,piso,68,3,1.0,2.0,False,False,False,agencia,960,False
+1305,2026-05-21,Levante,piso,66,2,1.0,19.0,True,True,False,particular,1290,False
+1306,2026-05-22,Centro,dúplex,115,3,2.0,21.0,True,False,True,agencia,2070,False
+1307,2026-05-23,La Cala,piso,51,2,1.0,,False,False,False,agencia,680,True
+1308,2026-05-23,Casco Antiguo,ático,76,3,1.0,23.0,True,True,True,agencia,1670,False
+1309,2026-05-24,Poniente,piso,111,3,2.0,5.0,True,False,False,agencia,1700,False
+1310,2026-05-25,Rincón de Loix,dúplex,104,4,2.0,18.0,True,False,True,agencia,1940,False
+1311,2026-05-26,Levante,piso,113,3,2.0,19.0,True,False,True,agencia,2070,False
+1312,2026-05-26,Els Tolls,piso,104,3,2.0,,True,False,False,particular,1110,False
+1313,2026-05-28,Poniente,estudio,29,1,1.0,8.0,True,False,False,particular,670,False
+1314,2026-05-28,Els Tolls,piso,75,3,1.0,1.0,False,False,False,agencia,630,False
+1315,2026-05-29,Els Tolls,piso,52,2,1.0,2.0,False,True,False,particular,580,False
+1316,2026-05-29,Levante,piso,76,3,1.0,3.0,True,False,True,agencia,1430,False
+1317,2026-05-30,Casco Antiguo,piso,78,2,1.0,3.0,True,True,True,agencia,1260,False
+1318,2026-05-30,Poniente,ático,114,4,3.0,25.0,True,True,True,particular,2190,False
+1319,2026-06-01,Rincón de Loix,piso,74,2,1.0,0.0,False,True,False,particular,1280,False
+1320,2026-06-01,Rincón de Loix,estudio,41,1,1.0,18.0,True,False,True,particular,890,False
+1321,2026-06-01,Els Tolls,piso,86,3,1.0,2.0,False,False,False,agencia,890,False
+1322,2026-06-01,Els Tolls,piso,100,3,2.0,1.0,False,False,False,agencia,1050,False
+1323,2026-06-02,Casco Antiguo,ático,83,3,1.0,23.0,True,True,True,particular,2070,False
+1324,2026-06-02,Foietes,ático,100,2,2.0,8.0,True,True,False,agencia,1710,False
+1325,2026-06-03,Poniente,piso,52,1,1.0,,True,False,True,particular,1110,False
+1326,2026-06-03,El Murtal,piso,54,2,1.0,1.0,True,False,False,agencia,690,False
+1327,2026-06-04,Centro,piso,101,3,2.0,5.0,True,False,True,agencia,2220,True
+1328,2026-06-04,Poniente,piso,110,4,2.0,11.0,True,False,True,agencia,2200,False
+1329,2026-06-04,Els Tolls,piso,55,2,1.0,4.0,False,False,False,agencia,610,False
+1330,2026-06-04,El Murtal,piso,93,2,1.0,0.0,False,False,False,agencia,1070,True
+1331,2026-06-04,Centro,piso,58,1,,7.0,True,True,False,agencia,810,True
+1332,2026-06-04,Els Tolls,piso,115,4,2.0,3.0,False,False,False,agencia,1170,True
+1333,2026-06-07,Casco Antiguo,piso,54,3,1.0,6.0,True,False,False,particular,830,False
+1334,2026-06-07,Foietes,ático,72,2,1.0,6.0,True,True,False,agencia,1050,False
+1335,2026-06-07,Foietes,piso,107,4,2.0,4.0,True,True,False,agencia,1360,False
+1336,2026-06-07,Casco Antiguo,piso,58,1,1.0,9.0,True,False,False,agencia,860,True
+1337,2026-06-07,Els Tolls,piso,61,2,1.0,3.0,True,False,False,particular,720,False
+1338,2026-06-08,Poniente,estudio,43,1,1.0,22.0,True,True,True,particular,910,False
+1339,2026-06-09,Salt de l'Aigua,piso,55,2,1.0,0.0,True,True,False,agencia,620,False
+1340,2026-06-09,Salt de l'Aigua,piso,72,3,1.0,6.0,False,False,False,particular,630,False
+1341,2026-06-09,Els Tolls,piso,111,4,2.0,2.0,True,False,False,agencia,910,False
+1342,2026-06-09,Els Tolls,dúplex,156,5,2.0,1.0,False,True,False,particular,1430,False
+1343,2026-06-09,Levante,piso,58,2,1.0,16.0,True,True,False,agencia,1030,True
+1344,2026-06-10,Foietes,piso,102,4,2.0,6.0,True,True,False,agencia,1380,False
+1345,2026-06-10,El Murtal,piso,115,4,2.0,3.0,True,False,False,agencia,1210,False
+1346,2026-06-11,Poniente,piso,65,3,1.0,23.0,True,False,True,particular,1210,False
+1347,2026-06-11,Poniente,piso,86,3,1.0,2.0,False,False,False,particular,1430,True
+1348,2026-06-11,Levante,piso,93,3,1.0,0.0,True,False,False,agencia,1520,False
+1349,2026-06-12,Levante,dúplex,111,3,2.0,10.0,True,False,True,agencia,2460,False
+1350,2026-06-13,El Murtal,piso,73,1,1.0,2.0,False,False,False,particular,930,False
+1351,2026-06-13,Levante,piso,75,2,1.0,0.0,True,False,False,agencia,1490,False
+1352,2026-06-13,Foietes,piso,107,4,2.0,6.0,True,False,False,agencia,1140,False
+1353,2026-06-14,Rincón de Loix,piso,51,1,1.0,20.0,True,True,True,agencia,850,True
+1354,2026-06-17,Casco Antiguo,piso,95,3,1.0,8.0,True,True,False,particular,1920,False
+1355,2026-06-18,Rincón de Loix,piso,86,2,1.0,4.0,True,False,False,agencia,1610,False
+1356,2026-06-18,Foietes,piso,101,3,2.0,0.0,False,False,False,agencia,1360,False
+1357,2026-06-18,Centro,estudio,40,1,1.0,20.0,True,False,True,agencia,860,False
+1358,2026-06-18,Poniente,dúplex,106,4,2.0,23.0,True,True,True,particular,2040,False
+1359,2026-06-19,Centro,piso,81,2,1.0,14.0,True,False,False,particular,1290,False
+1360,2026-06-19,Poniente,piso,51,2,1.0,5.0,True,False,False,agencia,740,False
+1361,2026-06-20,Foietes,estudio,36,1,1.0,0.0,False,True,False,particular,510,False
+1362,2026-06-21,Levante,piso,78,2,1.0,5.0,True,True,False,agencia,1510,False
+1363,2026-06-22,El Murtal,piso,106,3,2.0,0.0,False,True,False,agencia,1220,False
+1364,2026-06-22,El Murtal,piso,100,4,2.0,8.0,True,True,False,agencia,1060,False
+1365,2026-06-22,Salt de l'Aigua,dúplex,113,3,2.0,0.0,False,False,False,agencia,1230,False
+1366,2026-06-23,Casco Antiguo,estudio,43,1,1.0,0.0,False,False,False,agencia,740,False
+1367,2026-06-23,Els Tolls,piso,85,3,1.0,0.0,False,False,False,particular,950,True
+1368,2026-06-23,Rincón de Loix,piso,71,2,1.0,10.0,True,False,False,agencia,1110,False
+1369,2026-06-23,Salt de l'Aigua,ático,104,3,2.0,8.0,True,True,False,agencia,1260,False
+1370,2026-06-23,Levante,piso,82,3,1.0,5.0,True,False,False,particular,1240,True
+1371,2026-06-23,Casco Antiguo,piso,117,3,2.0,4.0,True,False,False,agencia,2240,False
+1372,2026-06-24,Rincón de Loix,estudio,42,1,1.0,2.0,False,False,False,agencia,980,False
+1373,2026-06-24,Els Tolls,estudio,28,1,1.0,2.0,True,False,False,particular,340,False
+1374,2026-06-24,Poniente,piso,67,2,1.0,0.0,False,False,False,agencia,990,True
+1375,2026-06-25,Salt de l'Aigua,piso,78,3,1.0,7.0,True,False,False,agencia,930,False
+1376,2026-06-25,Levante,piso,97,3,2.0,21.0,True,False,True,particular,1640,False
+1377,2026-06-25,Els Tolls,dúplex,130,4,2.0,1.0,False,True,False,agencia,1660,False
+1378,2026-06-25,Casco Antiguo,piso,111,5,3.0,16.0,True,False,True,agencia,2130,False
+1379,2026-06-25,Levante,piso,61,1,1.0,3.0,True,False,False,particular,990,False
+1380,2026-06-26,Foietes,piso,94,3,1.0,0.0,False,False,False,agencia,1210,False
+1381,2026-06-26,Rincón de Loix,ático,123,4,2.0,23.0,True,True,True,particular,2850,False
+1382,2026-06-27,Poniente,piso,58,2,1.0,9.0,True,False,True,particular,1130,False
+1383,2026-06-29,Poniente,piso,97,3,2.0,0.0,True,False,False,particular,1680,False
+1384,2026-06-30,Rincón de Loix,piso,95,4,1.0,19.0,True,True,True,agencia,1880,False
+1385,2026-06-30,Casco Antiguo,piso,52,2,1.0,17.0,True,False,True,agencia,770,False
+1386,2026-06-30,Centro,estudio,28,1,1.0,24.0,True,True,True,agencia,610,False
+1387,2026-07-01,Levante,piso,53,2,1.0,23.0,True,False,True,particular,1020,False
+1388,2026-07-01,Salt de l'Aigua,dúplex,106,3,2.0,2.0,False,True,False,agencia,1090,True
+1389,2026-07-01,La Cala,dúplex,136,5,2.0,18.0,True,False,True,agencia,2690,False
+1390,2026-07-02,Levante,piso,111,4,2.0,12.0,True,False,False,agencia,1830,False
+1391,2026-07-03,El Murtal,piso,97,4,2.0,0.0,True,True,False,agencia,1170,False
+1392,2026-07-04,Casco Antiguo,ático,109,3,2.0,26.0,True,True,False,agencia,2140,True
+1393,2026-07-04,La Cala,estudio,34,1,1.0,3.0,True,False,True,particular,690,False
+1394,2026-07-04,Casco Antiguo,estudio,31,1,1.0,1.0,False,False,False,agencia,540,False
+1395,2026-07-04,Foietes,piso,88,3,1.0,,True,False,False,agencia,920,True
+1396,2026-07-04,Foietes,piso,98,3,2.0,4.0,True,True,False,agencia,1170,True
+1397,2026-07-06,Centro,estudio,42,1,1.0,4.0,True,True,False,agencia,880,False
+1398,2026-07-06,Els Tolls,piso,90,3,1.0,4.0,True,False,False,agencia,1020,False
+1399,2026-07-06,La Cala,piso,118,5,2.0,2.0,False,False,False,agencia,1380,True
+1400,2026-07-06,La Cala,piso,106,4,2.0,9.0,True,True,False,agencia,1530,True
+1401,2026-07-07,Levante,estudio,44,1,1.0,4.0,True,False,False,agencia,990,False
+1402,2026-07-08,Centro,piso,97,3,2.0,0.0,True,True,False,agencia,1040,False
+1403,2026-07-09,Casco Antiguo,piso,66,2,1.0,19.0,True,False,True,particular,1060,False
+1404,2026-07-09,Rincón de Loix,piso,107,3,2.0,23.0,True,True,True,agencia,1760,False
+1405,2026-07-09,Rincón de Loix,piso,94,3,1.0,5.0,True,False,True,particular,1700,False
+1406,2026-07-10,Foietes,piso,101,3,2.0,1.0,False,False,False,particular,840,True
+1407,2026-07-11,Centro,dúplex,106,3,2.0,0.0,False,True,False,agencia,1510,False
+1408,2026-07-11,Foietes,piso,55,1,1.0,2.0,True,False,False,agencia,630,False
+1409,2026-07-12,Rincón de Loix,estudio,44,1,1.0,16.0,True,True,False,agencia,730,False
+1410,2026-07-13,El Murtal,piso,83,3,1.0,1.0,False,True,False,agencia,970,False
+1411,2026-07-13,Levante,piso,91,3,1.0,24.0,True,False,True,agencia,1840,False
+1412,2026-07-13,Els Tolls,piso,54,3,1.0,4.0,True,True,False,agencia,660,False
+1413,2026-07-14,Els Tolls,piso,110,3,2.0,8.0,True,False,False,particular,1010,False
+1414,2026-07-14,Foietes,ático,80,2,1.0,6.0,True,True,False,agencia,1160,False
+1415,2026-07-14,Casco Antiguo,piso,50,2,1.0,13.0,True,True,True,agencia,870,True
+1416,2026-07-15,Rincón de Loix,piso,69,3,1.0,2.0,False,False,False,agencia,1150,True
+1417,2026-07-15,El Murtal,piso,60,1,1.0,4.0,True,False,False,agencia,720,False
+1418,2026-07-15,La Cala,piso,82,2,1.0,4.0,True,True,False,agencia,1230,False
+1419,2026-07-16,Rincón de Loix,piso,96,3,2.0,8.0,False,False,True,particular,1680,False
+1420,2026-07-16,La Cala,dúplex,109,3,2.0,5.0,True,False,True,agencia,2170,False
+1421,2026-07-16,Rincón de Loix,piso,62,1,1.0,0.0,False,False,False,agencia,910,False
+1422,2026-07-16,Poniente,estudio,31,1,1.0,5.0,True,True,False,agencia,740,False
+1423,2026-07-16,La Cala,piso,60,3,1.0,0.0,True,False,False,agencia,970,False
+1424,2026-07-17,El Murtal,piso,110,3,2.0,7.0,True,False,False,particular,1260,False
+1425,2026-07-17,Centro,piso,86,3,1.0,3.0,True,False,True,agencia,1310,False
+1426,2026-07-17,Levante,piso,53,2,1.0,0.0,True,True,True,agencia,960,False
+1427,2026-07-17,Centro,piso,79,2,1.0,6.0,True,False,False,agencia,870,True
+1428,2026-07-18,Rincón de Loix,piso,82,2,1.0,15.0,True,False,True,particular,1150,False
+1429,2026-07-19,Salt de l'Aigua,dúplex,138,4,2.0,8.0,True,False,False,agencia,1220,True
+1430,2026-07-19,Els Tolls,piso,95,3,1.0,2.0,False,False,False,particular,960,False
+1431,2026-07-19,La Cala,piso,100,3,2.0,5.0,True,True,True,particular,1650,False
+1432,2026-07-20,Rincón de Loix,piso,63,3,1.0,0.0,False,False,False,particular,900,True
+1433,2026-07-21,Rincón de Loix,piso,51,1,1.0,25.0,True,False,True,agencia,950,False
+1434,2026-07-21,Salt de l'Aigua,piso,82,3,1.0,0.0,True,True,False,agencia,630,True
+1435,2026-07-21,Rincón de Loix,estudio,33,1,1.0,0.0,False,True,False,particular,630,False
+1436,2026-07-21,Levante,estudio,33,1,1.0,0.0,True,False,False,agencia,900,False
+1437,2026-07-22,El Murtal,piso,113,4,2.0,4.0,True,True,False,agencia,1290,False
+1438,2026-07-22,Centro,piso,110,4,2.0,3.0,True,False,False,agencia,1410,True
+1439,2026-07-23,Casco Antiguo,piso,104,4,3.0,19.0,True,False,True,agencia,1650,False
+1440,2026-07-24,Casco Antiguo,piso,53,1,1.0,16.0,True,True,True,agencia,800,False
+1441,2026-07-24,Foietes,ático,74,2,1.0,8.0,True,True,False,agencia,1070,False
+1442,2026-07-25,Poniente,piso,54,2,1.0,1.0,False,False,True,agencia,1250,False
+1443,2026-07-25,El Murtal,piso,69,3,1.0,4.0,True,True,False,particular,1040,False
+1444,2026-07-26,Poniente,estudio,35,1,1.0,24.0,True,True,True,particular,670,False
+1445,2026-07-27,Centro,ático,80,3,1.0,23.0,False,True,True,particular,1390,False
+1446,2026-07-27,Levante,piso,99,4,3.0,2.0,True,True,False,agencia,1930,False
+1447,2026-07-27,El Murtal,piso,56,2,1.0,0.0,False,True,False,particular,570,False
+1448,2026-07-28,Levante,piso,111,4,2.0,8.0,True,False,True,agencia,2790,False
+1449,2026-07-28,La Cala,ático,68,2,1.0,26.0,True,True,True,agencia,1250,False
+1450,2026-07-28,La Cala,ático,95,3,1.0,23.0,True,True,True,agencia,2200,False
+1451,2026-07-29,Salt de l'Aigua,piso,91,3,1.0,0.0,True,False,False,particular,880,False
+1452,2026-07-29,Rincón de Loix,piso,117,5,2.0,5.0,True,True,False,agencia,1760,True
+1453,2026-07-29,Levante,ático,61,1,1.0,26.0,True,True,True,agencia,1080,False
+1454,2026-07-29,Foietes,piso,96,3,,0.0,False,False,False,particular,1070,True
+1455,2026-07-29,Centro,piso,110,4,2.0,2.0,False,True,False,agencia,1740,False
+1456,2026-07-29,Rincón de Loix,piso,116,4,,1.0,True,False,False,particular,2000,False
+1457,2026-07-30,Els Tolls,piso,104,4,2.0,6.0,True,False,False,particular,1220,False
+1458,2026-07-30,El Murtal,piso,109,4,2.0,0.0,True,False,False,agencia,1240,True
+1459,2026-07-31,Levante,piso,50,2,1.0,0.0,False,False,False,agencia,830,False
+1460,2026-08-01,Rincón de Loix,piso,112,4,2.0,19.0,True,True,False,particular,2190,False
+1461,2026-08-02,Els Tolls,estudio,33,1,1.0,5.0,True,True,False,agencia,350,False
+1462,2026-08-02,La Cala,estudio,28,1,1.0,1.0,True,False,False,agencia,620,False
+1463,2026-08-02,Salt de l'Aigua,piso,50,1,1.0,,True,True,False,agencia,530,False
+1464,2026-08-03,Poniente,estudio,42,1,1.0,23.0,True,False,True,agencia,830,False
+1465,2026-08-03,Levante,piso,77,2,1.0,2.0,True,False,False,agencia,1350,False
+1466,2026-08-05,Levante,estudio,39,1,1.0,,True,False,True,agencia,740,False
+1467,2026-08-06,Casco Antiguo,piso,87,3,1.0,8.0,True,True,False,agencia,1480,False
+1468,2026-08-07,Foietes,piso,59,1,1.0,6.0,False,False,False,agencia,630,True
+1469,2026-08-07,Rincón de Loix,piso,114,5,2.0,4.0,True,False,False,agencia,1610,False
+1470,2026-08-08,Casco Antiguo,piso,55,2,1.0,5.0,True,False,True,agencia,1150,False
+1471,2026-08-08,Casco Antiguo,piso,53,1,1.0,0.0,False,False,False,agencia,570,True
+1472,2026-08-10,Foietes,estudio,30,1,1.0,4.0,True,False,False,agencia,530,False
+1473,2026-08-10,Levante,piso,80,2,1.0,24.0,True,True,True,particular,3110,False
+1474,2026-08-10,Els Tolls,estudio,36,1,1.0,1.0,True,False,False,particular,410,False
+1475,2026-08-11,Centro,piso,104,3,2.0,5.0,True,False,False,particular,1430,True
+1476,2026-08-11,Els Tolls,piso,54,2,1.0,5.0,True,False,False,particular,490,False
+1477,2026-08-11,Els Tolls,piso,119,4,2.0,4.0,True,False,False,agencia,1080,False
+1478,2026-08-12,Els Tolls,piso,79,3,1.0,5.0,True,True,False,particular,1200,False
+1479,2026-08-12,Centro,piso,112,4,2.0,1.0,False,False,False,particular,1340,False
+1480,2026-08-12,Els Tolls,piso,61,1,1.0,6.0,True,False,False,particular,650,False
+1481,2026-08-12,Levante,dúplex,112,4,2.0,22.0,True,False,True,agencia,2560,False
+1482,2026-08-12,Casco Antiguo,piso,53,2,1.0,13.0,True,False,True,agencia,860,False
+1483,2026-08-13,Levante,piso,82,3,1.0,0.0,False,False,False,agencia,1190,True
+1484,2026-08-13,Poniente,piso,57,2,1.0,10.0,True,True,True,agencia,1130,False
+1485,2026-08-13,Rincón de Loix,piso,80,2,1.0,7.0,True,False,False,particular,1260,False
+1486,2026-08-14,Salt de l'Aigua,piso,56,1,1.0,8.0,True,False,False,agencia,490,False
+1487,2026-08-14,Rincón de Loix,piso,81,3,1.0,9.0,True,False,False,agencia,1300,True
+1488,2026-08-15,Poniente,piso,113,5,2.0,7.0,True,False,False,particular,1610,True
+1489,2026-08-15,Els Tolls,piso,51,1,1.0,2.0,False,True,False,particular,510,False
+1490,2026-08-15,Levante,estudio,39,1,1.0,3.0,True,False,True,agencia,960,False
+1491,2026-08-15,La Cala,dúplex,126,4,2.0,24.0,True,False,True,agencia,2660,False
+1492,2026-08-16,Poniente,piso,94,4,1.0,13.0,True,False,False,agencia,1430,False
+1493,2026-08-16,El Murtal,piso,59,2,1.0,5.0,True,False,False,agencia,550,True
+1494,2026-08-17,Foietes,piso,118,3,2.0,4.0,True,False,False,agencia,1350,False
+1495,2026-08-17,El Murtal,piso,100,3,2.0,0.0,False,False,False,particular,1100,True
+1496,2026-08-17,El Murtal,piso,89,3,1.0,4.0,True,True,False,agencia,1170,False
+1497,2026-08-17,La Cala,estudio,30,1,1.0,,True,True,False,agencia,600,False
+1498,2026-08-18,Centro,piso,115,4,2.0,1.0,False,False,False,particular,1350,False
+1499,2026-08-19,Rincón de Loix,estudio,31,1,1.0,7.0,True,False,True,agencia,610,False
+1500,2026-08-20,Levante,piso,95,3,1.0,8.0,False,False,False,particular,1260,True
+1501,2026-08-20,Els Tolls,piso,63,2,1.0,3.0,True,False,False,agencia,660,False
+1502,2026-08-20,Centro,estudio,35,1,1.0,23.0,True,False,True,agencia,620,False
+1503,2026-08-20,Els Tolls,piso,51,1,1.0,1.0,True,True,False,agencia,530,False
+1504,2026-08-21,Centro,ático,108,3,3.0,26.0,False,True,True,agencia,2230,False
+1505,2026-08-22,Rincón de Loix,estudio,42,1,1.0,4.0,True,True,False,agencia,820,False
+1506,2026-08-22,Centro,piso,80,2,1.0,17.0,True,False,True,particular,1310,False
+1507,2026-08-22,Casco Antiguo,piso,107,3,2.0,12.0,True,False,True,agencia,1830,False
+1508,2026-08-23,Rincón de Loix,piso,63,2,1.0,6.0,True,True,False,particular,920,True
+1509,2026-08-23,Casco Antiguo,piso,53,2,1.0,6.0,True,False,True,agencia,830,False
+1510,2026-08-23,El Murtal,piso,53,1,1.0,2.0,False,False,False,particular,600,False
+1511,2026-08-23,Casco Antiguo,ático,62,2,1.0,23.0,True,True,True,particular,1070,False
+1512,2026-08-24,Poniente,ático,124,4,2.0,23.0,True,True,True,particular,3260,False
+1513,2026-08-24,Salt de l'Aigua,piso,88,3,1.0,,True,False,False,agencia,950,False
+1514,2026-08-25,Levante,piso,75,2,1.0,4.0,True,True,True,agencia,1650,False
+1515,2026-08-25,Poniente,estudio,32,1,1.0,15.0,True,False,False,agencia,620,False
+1516,2026-08-26,Salt de l'Aigua,piso,108,3,2.0,2.0,False,True,False,particular,960,False
+1517,2026-08-27,Poniente,piso,81,3,,12.0,True,False,True,particular,1620,False
+1518,2026-08-28,La Cala,piso,80,2,1.0,25.0,True,True,True,agencia,1910,False
+1519,2026-08-28,Poniente,piso,68,3,1.0,9.0,True,False,False,agencia,2010,False
+1520,2026-08-29,Rincón de Loix,piso,54,2,1.0,20.0,True,True,False,particular,820,True
+1521,2026-08-29,Foietes,piso,90,3,,0.0,True,False,False,particular,820,True
+1522,2026-08-29,Els Tolls,piso,88,3,1.0,,True,True,False,agencia,930,False
+1523,2026-08-30,Salt de l'Aigua,ático,117,4,2.0,6.0,True,True,False,agencia,1320,False
+1524,2026-09-01,La Cala,piso,56,2,1.0,,True,True,True,agencia,880,False
+1525,2026-09-02,Centro,piso,111,4,2.0,0.0,True,False,True,particular,1650,True
+1526,2026-09-03,Foietes,piso,100,3,2.0,0.0,False,False,False,agencia,1300,False
+1527,2026-09-03,Salt de l'Aigua,piso,100,3,2.0,3.0,True,False,False,agencia,910,True
+1528,2026-09-03,Salt de l'Aigua,ático,87,2,1.0,7.0,True,True,False,particular,1080,False
+1529,2026-09-04,Centro,piso,82,2,1.0,8.0,True,False,False,agencia,1340,False
+1530,2026-09-04,Salt de l'Aigua,piso,105,3,2.0,3.0,True,False,False,agencia,1190,False
+1531,2026-09-04,El Murtal,ático,86,3,1.0,8.0,True,True,False,agencia,1270,False
+1532,2026-09-04,Els Tolls,dúplex,92,3,1.0,8.0,True,False,False,agencia,890,False
+1533,2026-09-05,Levante,piso,73,3,1.0,10.0,True,False,True,particular,1500,False
+1534,2026-09-05,Salt de l'Aigua,estudio,28,1,1.0,7.0,True,False,False,agencia,260,False
+1535,2026-09-05,El Murtal,dúplex,97,3,2.0,4.0,True,False,False,particular,950,True
+1536,2026-09-06,Levante,piso,58,2,1.0,10.0,True,False,False,agencia,1060,False
+1537,2026-09-06,Poniente,piso,103,4,2.0,5.0,True,False,True,particular,2140,False
+1538,2026-09-06,Rincón de Loix,piso,115,5,2.0,17.0,True,False,False,agencia,2050,False
+1539,2026-09-08,Foietes,piso,74,1,1.0,0.0,False,False,False,particular,830,False
+1540,2026-09-08,La Cala,piso,69,3,1.0,1.0,False,False,False,agencia,2260,False
+1541,2026-09-08,La Cala,piso,104,3,2.0,13.0,True,True,True,particular,1800,False
+1542,2026-09-09,Els Tolls,ático,101,4,2.0,7.0,True,True,False,particular,1100,False
+1543,2026-09-09,El Murtal,ático,85,3,1.0,6.0,True,True,False,agencia,1170,False
+1544,2026-09-09,Rincón de Loix,piso,77,2,1.0,25.0,True,True,True,particular,1720,False
+1545,2026-09-09,El Murtal,estudio,44,1,1.0,6.0,True,False,False,agencia,760,False
+1546,2026-09-11,Poniente,piso,65,2,1.0,2.0,False,False,False,agencia,1080,False
+1547,2026-09-11,Levante,piso,84,3,1.0,16.0,True,False,True,agencia,1350,False
+1548,2026-09-11,Centro,piso,61,2,1.0,1.0,True,True,False,agencia,930,False
+1549,2026-09-11,Poniente,piso,96,4,2.0,17.0,True,False,False,agencia,1540,False
+1550,2026-09-11,Els Tolls,piso,91,2,1.0,1.0,False,True,False,agencia,870,False
+1551,2026-09-11,Els Tolls,piso,66,2,1.0,0.0,False,False,False,particular,670,False
+1552,2026-09-11,Rincón de Loix,piso,82,3,1.0,5.0,True,True,False,agencia,1220,True
+1553,2026-09-12,Poniente,piso,56,2,1.0,10.0,False,True,False,agencia,870,False
+1554,2026-09-12,Els Tolls,dúplex,156,5,2.0,3.0,False,False,False,agencia,1830,False
+1555,2026-09-12,La Cala,piso,108,3,2.0,4.0,True,True,False,agencia,1480,True
+1556,2026-09-13,Els Tolls,piso,108,4,2.0,5.0,True,False,False,particular,1270,False
+1557,2026-09-14,La Cala,piso,72,3,1.0,7.0,True,False,False,agencia,1030,False
+1558,2026-09-14,Levante,piso,107,3,2.0,6.0,True,False,False,agencia,1870,False
+1559,2026-09-14,Poniente,piso,69,2,1.0,14.0,True,False,False,agencia,1430,False
+1560,2026-09-14,Poniente,piso,54,2,1.0,15.0,True,False,False,particular,810,False
+1561,2026-09-14,Els Tolls,piso,61,2,1.0,8.0,True,False,False,particular,630,False
+1562,2026-09-14,Centro,piso,81,3,1.0,0.0,False,False,False,agencia,1220,False
+1563,2026-09-14,Levante,piso,86,3,1.0,24.0,True,False,True,particular,1790,False
+1564,2026-09-15,El Murtal,piso,50,2,1.0,0.0,False,False,False,particular,720,False
+1565,2026-09-15,Casco Antiguo,piso,113,5,2.0,0.0,False,False,False,agencia,1760,False
+1566,2026-09-15,Poniente,ático,119,4,2.0,23.0,True,True,True,particular,2680,False
+1567,2026-09-16,Salt de l'Aigua,piso,78,3,1.0,0.0,False,False,False,particular,660,False
+1568,2026-09-17,Foietes,ático,77,3,1.0,7.0,True,True,False,agencia,1120,False
+1569,2026-09-17,Foietes,piso,92,3,,2.0,False,False,False,agencia,1340,False
+1570,2026-09-17,Salt de l'Aigua,piso,80,3,1.0,8.0,True,False,False,particular,850,False
+1571,2026-09-17,Foietes,piso,94,3,1.0,5.0,True,True,False,agencia,980,False
+1572,2026-09-17,Salt de l'Aigua,piso,66,2,1.0,2.0,True,False,False,agencia,640,False
+1573,2026-09-18,Foietes,estudio,32,1,1.0,4.0,True,False,False,agencia,430,False
+1574,2026-09-18,La Cala,piso,56,2,1.0,0.0,False,False,False,agencia,840,True
+1575,2026-09-18,Centro,piso,92,3,1.0,9.0,True,False,True,particular,1450,False
+1576,2026-09-18,Levante,piso,117,4,2.0,18.0,True,True,True,agencia,2170,False
+1577,2026-09-19,Poniente,estudio,43,1,1.0,8.0,True,False,False,agencia,770,False
+1578,2026-09-19,Rincón de Loix,piso,89,3,1.0,6.0,True,True,True,particular,1620,False
+1579,2026-09-20,Levante,piso,59,2,1.0,2.0,True,False,False,agencia,1060,False
+1580,2026-09-21,Foietes,piso,82,3,1.0,2.0,False,True,False,particular,1080,False
+1581,2026-09-21,Foietes,piso,80,3,1.0,6.0,True,True,False,agencia,910,False
+1582,2026-09-21,Rincón de Loix,estudio,41,1,1.0,15.0,True,False,False,agencia,940,False
+1583,2026-09-21,Levante,piso,69,2,1.0,1.0,True,False,False,agencia,890,True
+1584,2026-09-24,La Cala,piso,84,4,1.0,4.0,True,False,False,particular,1590,False
+1585,2026-09-24,Casco Antiguo,piso,84,2,1.0,5.0,False,False,False,particular,940,True
+1586,2026-09-26,La Cala,piso,109,3,2.0,6.0,True,False,True,agencia,1740,False
+1587,2026-09-26,Rincón de Loix,dúplex,155,5,2.0,24.0,True,True,True,particular,3000,False
+1588,2026-09-27,Els Tolls,estudio,41,1,1.0,6.0,True,True,False,particular,520,False
+1589,2026-09-27,Centro,piso,71,2,1.0,3.0,True,False,True,particular,1500,False
+1590,2026-09-27,Casco Antiguo,piso,51,2,1.0,12.0,True,False,False,agencia,700,False
+1591,2026-09-28,Poniente,piso,92,3,1.0,2.0,False,False,False,agencia,1830,False
+1592,2026-09-28,La Cala,piso,84,3,1.0,7.0,True,False,True,agencia,880,True
+1593,2026-09-28,Salt de l'Aigua,piso,115,4,,3.0,True,False,False,agencia,870,True
+1594,2026-09-28,Levante,piso,52,3,1.0,6.0,True,False,False,agencia,890,False
+1595,2026-09-28,Levante,piso,94,4,1.0,8.0,True,False,False,agencia,1360,False
+1596,2026-09-28,Levante,estudio,34,1,1.0,9.0,True,False,False,agencia,580,False
+1597,2026-09-29,El Murtal,piso,86,3,1.0,0.0,True,True,False,agencia,940,False
+1598,2026-09-29,Casco Antiguo,piso,75,2,1.0,3.0,True,False,False,agencia,1030,False
+1599,2026-09-30,Salt de l'Aigua,piso,55,2,1.0,3.0,True,False,False,agencia,500,True
+1600,2026-09-30,Rincón de Loix,piso,105,3,2.0,11.0,False,False,False,agencia,1440,False
