@@ -14,6 +14,7 @@ up2-pandas/
 │   └── barrios.csv        zona y distancia a la playa de cada barrio
 ├── UP2.1 - Ejemplos.ipynb
 ├── UP2.2 - Ejemplos.ipynb
+├── UP2.3 - Ejemplos.ipynb
 └── pyproject.toml         dependencias del proyecto
 ```
 
