@@ -15,6 +15,7 @@ up2-pandas/
 ├── UP2.1 - Ejemplos.ipynb
 ├── UP2.2 - Ejemplos.ipynb
 ├── UP2.3 - Ejemplos.ipynb
+├── UP2.4 - Ejemplos.ipynb
 └── pyproject.toml         dependencias del proyecto
 ```
 
