@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Unidad 2 · Paso a paso</title>
+<style>
+/* Mismo sistema que las soluciones paso a paso de modelos E-R */
+:root{
+  --g-bg:#F9EFD8; --g-ink:#8A6700;
+  --olive:#455F51; --olive-d:#374C40; --green:#63A537; --lime:#99CB38; --gold:#CC9700; --blue:#378DA6; --red:#B0413E;
+  --bg:#F3F4F0; --panel:#FFFFFF; --panel-2:#F7F8F5; --line:#E1E4DD; --ink:#20261F; --ink-dim:#5B665A; --focus:#2F6F4E;
+  --active-bg:#EAF3E0; --hot:#E0A800; --hot-bg:rgba(204,151,0,.24); --code-bg:#1E1E1E; --code-fg:#D4D4D4;
+  --code-kw:#569CD6; --code-ty:#4EC9B0; --code-fn:#DCDCAA; --code-str:#CE9178; --code-num:#B5CEA8; --code-attr:#9CDCFE; --code-gut:#858585;
+  --outro-bg:#FBF3DE; --outro-line:#EFDFA8; --outro-ink:#6B5417;
+  --t-bg:#E3F1D6; --t-ink:#3F7A1E; --f-bg:#F6E1DF; --f-ink:#A13B37; --hdr:#455F51; --hdr-ink:#FFFFFF; --idx-bg:#F1F3EE; --idx-ink:#378DA6;
+  --out-bg:#F2F3F0; --out-ink:#2B2B2B;
+  --c1:#4E8A28; --c1-bg:#D7EDC3; --c2:#2C7892; --c2-bg:#CDE9F2; --c3:#A87B00; --c3-bg:#F7E7B4;
+  --c4:#7650A6; --c4-bg:#E6D9F3; --c5:#BF5236; --c5-bg:#F9D8CE; --c6:#455F51; --c6-bg:#D5DDD7;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SF Mono",Consolas,"Cascadia Code",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#151813; --panel:#1D211B; --panel-2:#232821; --line:#333A2F; --ink:#ECEFE7; --ink-dim:#AEB8A6;
+  --active-bg:#24331C; --hot-bg:rgba(224,168,0,.22); --outro-bg:#2E2814; --outro-line:#574A1C; --outro-ink:#E6CF8A;
+  --t-bg:#253A19; --t-ink:#A6D77C; --f-bg:#3E2220; --f-ink:#EE9C96; --hdr:#2F4237; --idx-bg:#232821; --idx-ink:#7CC3D8;
+  --out-bg:#232821; --out-ink:#DDE3D6; --g-bg:#3D3312; --g-ink:#E6CF8A;
+  --c1-bg:#2A3D1E; --c2-bg:#1D3A44; --c3-bg:#3D3312; --c4-bg:#33284A; --c5-bg:#452820; --c6-bg:#2A332D; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151813; --panel:#1D211B; --panel-2:#232821; --line:#333A2F; --ink:#ECEFE7; --ink-dim:#AEB8A6;
+  --active-bg:#24331C; --hot-bg:rgba(224,168,0,.22); --outro-bg:#2E2814; --outro-line:#574A1C; --outro-ink:#E6CF8A;
+  --t-bg:#253A19; --t-ink:#A6D77C; --f-bg:#3E2220; --f-ink:#EE9C96; --hdr:#2F4237; --idx-bg:#232821; --idx-ink:#7CC3D8;
+  --out-bg:#232821; --out-ink:#DDE3D6; --g-bg:#3D3312; --g-ink:#E6CF8A;
+  --c1-bg:#2A3D1E; --c2-bg:#1D3A44; --c3-bg:#3D3312; --c4-bg:#33284A; --c5-bg:#452820; --c6-bg:#2A332D; color-scheme:dark}
+*{box-sizing:border-box}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.gut{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.kicker{font-size:12px;letter-spacing:.06em;color:var(--lime);font-weight:700;text-transform:uppercase}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--olive)}
+header.top{background:var(--olive);color:#fff;padding-block:20px 18px}
+header.top h1{font-size:24px;margin:6px 0 6px;font-weight:700;text-wrap:balance}
+header.top p{margin:0;color:#E7ECE1;font-size:14px;line-height:1.55;max-width:75ch}
+.back{display:inline-flex;align-items:center;gap:6px;color:#fff;text-decoration:none;font-size:13px;font-weight:600;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);border-radius:10px;padding:7px 12px;margin-bottom:12px}
+.back:hover{background:rgba(255,255,255,.18)}
+nav.idx{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--panel-2);border-bottom:1px solid var(--line)}
+nav.idx .gut{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding-block:8px}
+nav.idx b{font-size:12px;color:var(--ink-dim);letter-spacing:.05em;text-transform:uppercase;margin-right:6px}
+nav.idx a{font-size:13px;color:var(--olive);text-decoration:none;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:var(--panel)}
+nav.idx a:hover{border-color:var(--green)}
+main{display:grid;gap:26px;padding-block:24px 40px}
+.sec{scroll-margin-top:60px}
+.sec h2{display:flex;align-items:center;gap:10px;font-size:17px;margin:0 0 10px;color:var(--ink)}
+.snum{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--olive);color:#fff;font-size:13px}
+.lista{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px}
+.lista a{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink);height:100%}
+.lista a:hover{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.num{flex:0 0 auto;min-width:28px;height:22px;border-radius:999px;background:var(--active-bg);color:var(--olive);font-weight:700;font-size:12px;display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums;margin-top:1px}
+.tx{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.tx b{font-size:14px;line-height:1.3}
+.tx span{font-size:12.5px;color:var(--ink-dim);line-height:1.45}
+.tx code{font-family:var(--mono);font-size:12px;color:var(--blue)}
+.go{color:var(--green);font-weight:700;font-size:18px;line-height:1}
+.ups{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.ups a{display:flex;flex-direction:column;gap:6px;padding:16px;background:var(--panel);border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink)}
+.ups a:hover{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.ups .k{font-size:12px;font-weight:700;color:var(--green);letter-spacing:.05em;text-transform:uppercase}
+.ups b{font-size:17px}.ups span{font-size:13px;color:var(--ink-dim)}
+.footbar{height:10px;display:flex}.footbar span{flex:.65;background:var(--lime)}.footbar span+span{flex:.35;background:var(--gold)}
+footer{font-size:12px;color:var(--ink-dim);padding-block:14px}
+</style>
+</head>
+<body>
+<header class="top"><div class="gut">
+<div class="kicker">Programación de IA · CE IABD · Paso a paso</div>
+<h1>Unidad 2 · Extracción y manipulación de datos</h1>
+<p>158 procesos cortos de NumPy, pandas y estadística, uno por idea. Cada uno ejecuta su código de verdad y enseña qué les pasa a los datos en cada paso.</p>
+</div></header>
+<nav class="idx"><div class="gut"><b>Presentaciones</b><a href="up2-1/index.html">UP2.1</a><a href="up2-2/index.html">UP2.2</a><a href="up2-3/index.html">UP2.3</a><a href="up2-4/index.html">UP2.4</a></div></nav>
+<main class="gut"><div class="ups"><a href="up2-1/index.html"><span class="k">UP2.1</span><b>NumPy, lo imprescindible</b><span>54 procesos paso a paso</span></a><a href="up2-2/index.html"><span class="k">UP2.2</span><b>Pandas I, Series y DataFrame</b><span>31 procesos paso a paso</span></a><a href="up2-3/index.html"><span class="k">UP2.3</span><b>Pandas II, seleccionar y filtrar</b><span>39 procesos paso a paso</span></a><a href="up2-4/index.html"><span class="k">UP2.4</span><b>Estadística y probabilidad I, describir una variable</b><span>34 procesos paso a paso</span></a></div></main>
+<div class="footbar" aria-hidden="true"><span></span><span></span></div>
+<footer class="gut">Programación de IA · CE IABD · Sergi Pérez Castaños</footer>
+</body>
+</html>

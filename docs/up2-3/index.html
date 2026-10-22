@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<title>UP2.3 · Paso a paso</title>
+<style>
+/* Mismo sistema que las soluciones paso a paso de modelos E-R */
+:root{
+  --g-bg:#F9EFD8; --g-ink:#8A6700;
+  --olive:#455F51; --olive-d:#374C40; --green:#63A537; --lime:#99CB38; --gold:#CC9700; --blue:#378DA6; --red:#B0413E;
+  --bg:#F3F4F0; --panel:#FFFFFF; --panel-2:#F7F8F5; --line:#E1E4DD; --ink:#20261F; --ink-dim:#5B665A; --focus:#2F6F4E;
+  --active-bg:#EAF3E0; --hot:#E0A800; --hot-bg:rgba(204,151,0,.24); --code-bg:#1E1E1E; --code-fg:#D4D4D4;
+  --code-kw:#569CD6; --code-ty:#4EC9B0; --code-fn:#DCDCAA; --code-str:#CE9178; --code-num:#B5CEA8; --code-attr:#9CDCFE; --code-gut:#858585;
+  --outro-bg:#FBF3DE; --outro-line:#EFDFA8; --outro-ink:#6B5417;
+  --t-bg:#E3F1D6; --t-ink:#3F7A1E; --f-bg:#F6E1DF; --f-ink:#A13B37; --hdr:#455F51; --hdr-ink:#FFFFFF; --idx-bg:#F1F3EE; --idx-ink:#378DA6;
+  --out-bg:#F2F3F0; --out-ink:#2B2B2B;
+  --c1:#4E8A28; --c1-bg:#D7EDC3; --c2:#2C7892; --c2-bg:#CDE9F2; --c3:#A87B00; --c3-bg:#F7E7B4;
+  --c4:#7650A6; --c4-bg:#E6D9F3; --c5:#BF5236; --c5-bg:#F9D8CE; --c6:#455F51; --c6-bg:#D5DDD7;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SF Mono",Consolas,"Cascadia Code",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#151813; --panel:#1D211B; --panel-2:#232821; --line:#333A2F; --ink:#ECEFE7; --ink-dim:#AEB8A6;
+  --active-bg:#24331C; --hot-bg:rgba(224,168,0,.22); --outro-bg:#2E2814; --outro-line:#574A1C; --outro-ink:#E6CF8A;
+  --t-bg:#253A19; --t-ink:#A6D77C; --f-bg:#3E2220; --f-ink:#EE9C96; --hdr:#2F4237; --idx-bg:#232821; --idx-ink:#7CC3D8;
+  --out-bg:#232821; --out-ink:#DDE3D6; --g-bg:#3D3312; --g-ink:#E6CF8A;
+  --c1-bg:#2A3D1E; --c2-bg:#1D3A44; --c3-bg:#3D3312; --c4-bg:#33284A; --c5-bg:#452820; --c6-bg:#2A332D; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151813; --panel:#1D211B; --panel-2:#232821; --line:#333A2F; --ink:#ECEFE7; --ink-dim:#AEB8A6;
+  --active-bg:#24331C; --hot-bg:rgba(224,168,0,.22); --outro-bg:#2E2814; --outro-line:#574A1C; --outro-ink:#E6CF8A;
+  --t-bg:#253A19; --t-ink:#A6D77C; --f-bg:#3E2220; --f-ink:#EE9C96; --hdr:#2F4237; --idx-bg:#232821; --idx-ink:#7CC3D8;
+  --out-bg:#232821; --out-ink:#DDE3D6; --g-bg:#3D3312; --g-ink:#E6CF8A;
+  --c1-bg:#2A3D1E; --c2-bg:#1D3A44; --c3-bg:#3D3312; --c4-bg:#33284A; --c5-bg:#452820; --c6-bg:#2A332D; color-scheme:dark}
+*{box-sizing:border-box}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.gut{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.kicker{font-size:12px;letter-spacing:.06em;color:var(--lime);font-weight:700;text-transform:uppercase}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--olive)}
+header.top{background:var(--olive);color:#fff;padding-block:20px 18px}
+header.top h1{font-size:24px;margin:6px 0 6px;font-weight:700;text-wrap:balance}
+header.top p{margin:0;color:#E7ECE1;font-size:14px;line-height:1.55;max-width:75ch}
+.back{display:inline-flex;align-items:center;gap:6px;color:#fff;text-decoration:none;font-size:13px;font-weight:600;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.08);border-radius:10px;padding:7px 12px;margin-bottom:12px}
+.back:hover{background:rgba(255,255,255,.18)}
+nav.idx{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--panel-2);border-bottom:1px solid var(--line)}
+nav.idx .gut{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding-block:8px}
+nav.idx b{font-size:12px;color:var(--ink-dim);letter-spacing:.05em;text-transform:uppercase;margin-right:6px}
+nav.idx a{font-size:13px;color:var(--olive);text-decoration:none;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:var(--panel)}
+nav.idx a:hover{border-color:var(--green)}
+main{display:grid;gap:26px;padding-block:24px 40px}
+.sec{scroll-margin-top:60px}
+.sec h2{display:flex;align-items:center;gap:10px;font-size:17px;margin:0 0 10px;color:var(--ink)}
+.snum{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--olive);color:#fff;font-size:13px}
+.lista{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px}
+.lista a{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink);height:100%}
+.lista a:hover{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.num{flex:0 0 auto;min-width:28px;height:22px;border-radius:999px;background:var(--active-bg);color:var(--olive);font-weight:700;font-size:12px;display:inline-flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums;margin-top:1px}
+.tx{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.tx b{font-size:14px;line-height:1.3}
+.tx span{font-size:12.5px;color:var(--ink-dim);line-height:1.45}
+.tx code{font-family:var(--mono);font-size:12px;color:var(--blue)}
+.go{color:var(--green);font-weight:700;font-size:18px;line-height:1}
+.ups{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.ups a{display:flex;flex-direction:column;gap:6px;padding:16px;background:var(--panel);border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink)}
+.ups a:hover{border-color:var(--green);box-shadow:0 0 0 1px var(--green)}
+.ups .k{font-size:12px;font-weight:700;color:var(--green);letter-spacing:.05em;text-transform:uppercase}
+.ups b{font-size:17px}.ups span{font-size:13px;color:var(--ink-dim)}
+.footbar{height:10px;display:flex}.footbar span{flex:.65;background:var(--lime)}.footbar span+span{flex:.35;background:var(--gold)}
+footer{font-size:12px;color:var(--ink-dim);padding-block:14px}
+</style>
+</head>
+<body>
+<header class="top"><div class="gut"><a class="back" href="../index.html">← Unidad 2</a>
+<div class="kicker">Programación de IA · CE IABD · Paso a paso</div>
+<h1>UP2.3 · Pandas II, seleccionar y filtrar</h1>
+<p>39 procesos, cada uno con una sola idea. Elige uno y avanza paso a paso: el código de la izquierda se ejecuta de verdad y a la derecha ves qué les pasa a los datos.</p>
+</div></header>
+<nav class="idx"><div class="gut"><b>Secciones</b><a href="#s1">Seleccionar con loc e iloc</a><a href="#s2">Filtrar filas</a><a href="#s3">Crear y modificar columnas</a><a href="#s4">Ordenar, encadenar y copias</a></div></nav>
+<main class="gut"><section class="sec" id="s1"><h2><span class="snum">1</span>Seleccionar con loc e iloc</h2><ol class="lista"><li><a href="01-loc-un-valor.html"><span class="num">1</span><span class="tx"><b>loc: un valor por etiqueta y columna</b><span><code>loc[etiqueta, "columna"]</code> elige una celda por sus nombres.</span></span><span class="go">›</span></a></li><li><a href="02-loc-tramo.html"><span class="num">2</span><span class="tx"><b>loc con un tramo: el final sí entra</b><span><code>loc[0:2, ...]</code> da las etiquetas 0, 1 y 2.</span></span><span class="go">›</span></a></li><li><a href="03-loc-todas-las-filas.html"><span class="num">3</span><span class="tx"><b>loc[:, columnas]: todas las filas</b><span>Los dos puntos solos significan todas las filas.</span></span><span class="go">›</span></a></li><li><a href="04-iloc-un-valor.html"><span class="num">4</span><span class="tx"><b>iloc: un valor por posición</b><span><code>iloc[fila, columna]</code> cuenta posiciones desde 0, como en NumPy.</span></span><span class="go">›</span></a></li><li><a href="05-iloc-tramo.html"><span class="num">5</span><span class="tx"><b>iloc con un tramo: el final no entra</b><span><code>iloc[0:2]</code> da las posiciones 0 y 1.</span></span><span class="go">›</span></a></li><li><a href="06-iloc-ultima.html"><span class="num">6</span><span class="tx"><b>iloc[-1]: desde el final</b><span>Las posiciones negativas cuentan desde el final.</span></span><span class="go">›</span></a></li><li><a href="07-set-index.html"><span class="num">7</span><span class="tx"><b>set_index: una columna como etiquetas</b><span>Las etiquetas pasan a tener significado: el id del anuncio.</span></span><span class="go">›</span></a></li><li><a href="08-loc-o-iloc-con-id.html"><span class="num">8</span><span class="tx"><b>Con set_index, loc usa el id</b><span><code>loc[1003]</code> busca la etiqueta; <code>iloc[2]</code>, la posición.</span></span><span class="go">›</span></a></li></ol></section><section class="sec" id="s2"><h2><span class="snum">2</span>Filtrar filas</h2><ol class="lista"><li><a href="09-mascara-columna.html"><span class="num">9</span><span class="tx"><b>Una comparación sobre una columna</b><span>Da una Series de True y False con las etiquetas de la tabla.</span></span><span class="go">›</span></a></li><li><a href="10-filtrar-filas.html"><span class="num">10</span><span class="tx"><b>Filtrar filas con una máscara</b><span>Entre corchetes, la máscara deja las filas con True.</span></span><span class="go">›</span></a></li><li><a href="11-loc-mascara-columnas.html"><span class="num">11</span><span class="tx"><b>loc[máscara, columnas]: filtrar y elegir columnas</b><span>Filas con la máscara y columnas con una lista, en una sola operación.</span></span><span class="go">›</span></a></li><li><a href="12-comparar-texto.html"><span class="num">12</span><span class="tx"><b>Comparar texto con ==</b><span>Las filas de un barrio.</span></span><span class="go">›</span></a></li><li><a href="13-dos-condiciones.html"><span class="num">13</span><span class="tx"><b>Dos condiciones con &amp;</b><span>Filas que cumplen las dos.</span></span><span class="go">›</span></a></li><li><a href="14-una-u-otra.html"><span class="num">14</span><span class="tx"><b>Una condición u otra con |</b><span>Filas que cumplen al menos una.</span></span><span class="go">›</span></a></li><li><a href="15-negar-condicion.html"><span class="num">15</span><span class="tx"><b>~: las filas que no cumplen</b><span><code>~</code> da la vuelta a la máscara.</span></span><span class="go">›</span></a></li><li><a href="16-columna-booleana.html"><span class="num">16</span><span class="tx"><b>Una columna de True y False ya es una máscara</b><span>No hace falta compararla con True.</span></span><span class="go">›</span></a></li><li><a href="17-isin.html"><span class="num">17</span><span class="tx"><b>isin: uno de varios valores</b><span>True si el valor está en la lista.</span></span><span class="go">›</span></a></li><li><a href="18-between.html"><span class="num">18</span><span class="tx"><b>between: entre dos valores</b><span>Los dos límites entran.</span></span><span class="go">›</span></a></li><li><a href="19-query.html"><span class="num">19</span><span class="tx"><b>query: la condición como texto</b><span>Se escribe la condición con los nombres de las columnas.</span></span><span class="go">›</span></a></li><li><a href="20-query-con-variable.html"><span class="num">20</span><span class="tx"><b>query con una variable: @</b><span><code>@nombre</code> usa una variable de Python dentro del texto.</span></span><span class="go">›</span></a></li><li><a href="21-contar-filas.html"><span class="num">21</span><span class="tx"><b>Contar las filas que cumplen</b><span><code>sum()</code> de la máscara o <code>len()</code> del resultado.</span></span><span class="go">›</span></a></li><li><a href="22-etiquetas-tras-filtrar.html"><span class="num">22</span><span class="tx"><b>Tras filtrar, las etiquetas se conservan</b><span>La primera fila del resultado no tiene la etiqueta 0.</span></span><span class="go">›</span></a></li><li><a href="23-reset-index.html"><span class="num">23</span><span class="tx"><b>reset_index: volver a numerar desde 0</b><span>Con <code>drop=True</code> las etiquetas viejas se descartan.</span></span><span class="go">›</span></a></li><li><a href="24-punto-o-corchetes.html"><span class="num">24</span><span class="tx"><b>pisos.precio o pisos["precio"]</b><span>Con punto también se lee una columna, pero solo sirve para leer.</span></span><span class="go">›</span></a></li></ol></section><section class="sec" id="s3"><h2><span class="snum">3</span>Crear y modificar columnas</h2><ol class="lista"><li><a href="25-columna-nueva.html"><span class="num">25</span><span class="tx"><b>Crear una columna con una operación</b><span>Se asigna a un nombre nuevo entre corchetes.</span></span><span class="go">›</span></a></li><li><a href="26-columna-con-condicion.html"><span class="num">26</span><span class="tx"><b>Una columna según una condición</b><span><code>np.where</code> pone un valor u otro en cada fila.</span></span><span class="go">›</span></a></li><li><a href="27-modificar-con-loc.html"><span class="num">27</span><span class="tx"><b>Cambiar valores con loc</b><span><code>loc[condición, "columna"] = valor</code> cambia solo esas celdas.</span></span><span class="go">›</span></a></li><li><a href="28-rename-sin-guardar.html"><span class="num">28</span><span class="tx"><b>rename devuelve una tabla nueva</b><span>Si no se guarda el resultado, el original no cambia.</span></span><span class="go">›</span></a></li><li><a href="29-rename-guardando.html"><span class="num">29</span><span class="tx"><b>Guardar el resultado de rename</b><span>Se asigna el resultado a la misma variable.</span></span><span class="go">›</span></a></li><li><a href="30-drop.html"><span class="num">30</span><span class="tx"><b>drop: quitar columnas</b><span><code>drop(columns=[...])</code> devuelve la tabla sin esas columnas.</span></span><span class="go">›</span></a></li><li><a href="31-assign.html"><span class="num">31</span><span class="tx"><b>assign: una columna nueva en una tabla nueva</b><span>Como crear una columna, pero sin cambiar el original.</span></span><span class="go">›</span></a></li></ol></section><section class="sec" id="s4"><h2><span class="snum">4</span>Ordenar, encadenar y copias</h2><ol class="lista"><li><a href="32-ordenar.html"><span class="num">32</span><span class="tx"><b>Ordenar por una columna</b><span><code>sort_values</code> ordena de menor a mayor.</span></span><span class="go">›</span></a></li><li><a href="33-ordenar-descendente.html"><span class="num">33</span><span class="tx"><b>De mayor a menor: ascending=False</b><span>Los más caros primero.</span></span><span class="go">›</span></a></li><li><a href="34-ordenar-por-dos.html"><span class="num">34</span><span class="tx"><b>Ordenar por dos columnas</b><span>Primero por una; dentro de cada valor, por la otra.</span></span><span class="go">›</span></a></li><li><a href="35-nlargest.html"><span class="num">35</span><span class="tx"><b>nlargest: los n mayores</b><span>Atajo para ordenar de mayor a menor y quedarse con los primeros.</span></span><span class="go">›</span></a></li><li><a href="36-encadenar.html"><span class="num">36</span><span class="tx"><b>Encadenar métodos</b><span>Cada método se aplica al resultado del anterior.</span></span><span class="go">›</span></a></li><li><a href="37-filtro-es-copia.html"><span class="num">37</span><span class="tx"><b>Un filtro es una tabla aparte</b><span>Cambiar el resultado de un filtro no cambia el original.</span></span><span class="go">›</span></a></li><li><a href="38-asignar-en-cadena.html"><span class="num">38</span><span class="tx"><b>Dos corchetes seguidos no cambian el original</b><span><code>tabla[filtro]["columna"] = valor</code> cambia una copia y avisa.</span></span><span class="go">›</span></a></li><li><a href="39-loc-cambia-el-original.html"><span class="num">39</span><span class="tx"><b>Para cambiar el original: loc</b><span><code>loc[condición, columna] = valor</code> cambia la tabla de verdad.</span></span><span class="go">›</span></a></li></ol></section></main>
+<div class="footbar" aria-hidden="true"><span></span><span></span></div>
+<footer class="gut">Programación de IA · CE IABD · Sergi Pérez Castaños</footer>
+</body>
+</html>
