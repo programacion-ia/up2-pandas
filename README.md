@@ -26,7 +26,7 @@ Los datos son **simulados**: los barrios son reales, pero los anuncios y los pre
 
 En la web del repositorio hay **158 procesos cortos**, uno por idea, de las presentaciones UP2.1 a UP2.4: crear un array, filtrar con una máscara, `loc` frente a `iloc`, la mediana, la regla del IQR… Cada uno se reproduce paso a paso: el código de la izquierda se ejecuta de verdad y a la derecha se ve qué les pasa a los datos.
 
-<https://programacion-ia.github.io/up2-pandas/>
+<https://programacion-ia.github.io/up2-pandas/docs/>
 
 ## Puesta en marcha (solo la primera vez)
 
