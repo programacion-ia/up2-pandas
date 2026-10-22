@@ -52,7 +52,7 @@ Necesitas Git, [uv](https://docs.astral.sh/uv/) y Visual Studio Code. En Windows
 
 - **No edites los notebooks de ejemplo.** Para probar cosas, copia el notebook a una carpeta `mis_pruebas/` y trabaja en la copia. Esa carpeta no se sube a GitHub y nunca choca con los cambios del profesor.
 - **Las rutas parten de la raíz del proyecto** (`Path("datos") / "pisos.csv"`), también desde `mis_pruebas/`: VS Code está configurado para ello.
-- **Las últimas celdas de cada notebook dan error a propósito.** Sirven para ver los errores más habituales.
+- **Algunos notebooks terminan con una celda que da error a propósito:** es el error que se enseña en la presentación. Está al final para que *Ejecutar todo* no se detenga antes.
 
 ## Cuando haya un tema nuevo
 
