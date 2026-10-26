@@ -5,3 +5,8 @@ __pycache__/
 
 # Tus pruebas: aquí no llegan los cambios del profesor y git no las sube
 mis_pruebas/
+
+# Archivos que crean los notebooks al guardar
+datos/pisos_limpio.csv
+datos/pisos_limpio.db
+datos/limpio.csv

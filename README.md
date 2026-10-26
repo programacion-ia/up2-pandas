@@ -11,11 +11,15 @@ up2-pandas/
 ├── datos/
 │   ├── pisos.csv          600 anuncios de alquiler en Benidorm
 │   ├── pisos_sucio.csv    los mismos anuncios tal como llegan, con errores
-│   └── barrios.csv        zona y distancia a la playa de cada barrio
+│   ├── barrios.csv        zona y distancia a la playa de cada barrio
+│   ├── barrios.xlsx       los barrios y sus servicios, en un Excel con dos hojas
+│   └── inmobiliaria.db    los anuncios en una base de datos SQLite
 ├── UP2.1 - Ejemplos.ipynb
 ├── UP2.2 - Ejemplos.ipynb
 ├── UP2.3 - Ejemplos.ipynb
 ├── UP2.4 - Ejemplos.ipynb
+├── UP2.5 - Ejemplos.ipynb
+├── UP2.6 - Ejemplos.ipynb
 ├── docs/                  procesos paso a paso (la web del repositorio)
 └── pyproject.toml         dependencias del proyecto
 ```
@@ -24,7 +28,7 @@ Los datos son **simulados**: los barrios son reales, pero los anuncios y los pre
 
 ## Procesos paso a paso
 
-En la web del repositorio hay **158 procesos cortos**, uno por idea, de las presentaciones UP2.1 a UP2.4: crear un array, filtrar con una máscara, `loc` frente a `iloc`, la mediana, la regla del IQR… Cada uno se reproduce paso a paso: el código de la izquierda se ejecuta de verdad y a la derecha se ve qué les pasa a los datos.
+En la web del repositorio hay **219 procesos cortos**, uno por idea, de las presentaciones UP2.1 a UP2.6: crear un array, filtrar con una máscara, `loc` frente a `iloc`, la mediana, quitar duplicados, limpiar texto, `groupby`, `merge`… Cada uno se reproduce paso a paso: el código de la izquierda se ejecuta de verdad y a la derecha se ve qué les pasa a los datos.
 
 <https://programacion-ia.github.io/up2-pandas/docs/>
 
